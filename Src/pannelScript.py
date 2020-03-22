@@ -263,6 +263,7 @@ try:
     
 except KeyboardInterrupt:
     logging.info("Exit program on KeyboardISR")
+    GPIO.cleanup()
     pixels.fill((0,0,0)) # turn off LEDs
     pixels.show()
     mqttc.loop_stop()
