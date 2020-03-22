@@ -14,5 +14,5 @@ DISPLAY=:0.0 chromium-browser --noerrdialogs --disable-infobars --kiosk <enter p
 # auto refresh chromium
 while true; do
    xdotool key "ctrl+F5" &
-   sleep 300
+   sleep 1800 # each 30 min
 done
