@@ -13,9 +13,8 @@ This is the software running on an RPI 3 Model A+ I am using for a OpenHAB2 Rasp
 Use followig commans to prepare your Raspberry pi
 
 ```bash
-sudo apt-get install rpi.gpio chromium-browser unclutter xrdp
-
-sudo apt-get install python3-pip
+sudo apt-get update sudo apt-get full upgrade
+sudo apt-get install rpi.gpio chromium-browser unclutter xrdp python3-pip
 sudo pip3 install --upgrade setuptools
 sudo pip3 install paho-mqtt
 ```
